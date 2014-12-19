@@ -21,7 +21,7 @@ echo "  <options>" >> /home/$quien/BOINC/cc_config.xml
 echo "    <http_1_0>1</http_1_0>" >> /home/$quien/BOINC/cc_config.xml
 echo "  </options>" >> /home/$quien/BOINC/cc_config.xml
 echo "</cc_config>" >> /home/$quien/BOINC/cc_config.xml
-echo "Descargue el instalador de BOINC y "
+echo "Descargue el instalador de BOINC, copielo a /home/"$quien" y ejecutelo desde alli" 
 rm -f /run/boinc-preinstaller.pid
 trap - INT TERM EXIT
 exit 0
