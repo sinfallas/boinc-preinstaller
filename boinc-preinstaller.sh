@@ -15,13 +15,7 @@ ln -sv /home/$quien/Descargas/BOINC/ /var/lib/boinc/
 ln -sv /home/$quien/Descargas/BOINC/boincscr /usr/lib/xscreensaver/boincscr
 ln -sv /usr/lib/i386-linux-gnu/libssl.so.1.0.0 /usr/lib/i386-linux-gnu/libssl.so.8
 ln -sv /usr/lib/i386-linux-gnu/libcrypto.so.1.0.0 /usr/lib/i386-linux-gnu/libcrypto.so.8
-
-
-
-
-
-echo '- GL: /home/$quien/Descargas/BOINC/boincscr -root -boinc_dir /home/$quien/Descargas/BOINC/ \n\'
-
+# echo '- GL: /home/$quien/Descargas/BOINC/boincscr -root -boinc_dir /home/$quien/Descargas/BOINC/ \n\' >> /home/$quien/.xscreensaver
 echo "Instalacion de dependencias de BOINC completada..."
 rm -f /run/boinc-preinstaller.pid
 trap - INT TERM EXIT
