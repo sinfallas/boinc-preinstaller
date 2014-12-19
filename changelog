@@ -1,4 +1,22 @@
-commit b5438c1f5320d0fdeceb3634e8d7ff52a35af6f4 (HEAD, origin/master, origin/HEAD, master)
+commit e2bb74c09750b93f0120afb6ef2a961708d548d5 (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Thu Dec 18 22:27:36 2014 -0430
+
+    * finalizado
+
+commit 03132247e7f01813a20565c92e81a7e1850f5343
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Thu Dec 18 22:23:32 2014 -0430
+
+    * se crea el archivo cc_config.xml
+
+commit 5aae6b1081c5b40dedd7a9bdd214c155143b0cd1
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Thu Dec 18 22:17:11 2014 -0430
+
+    * changelog
+
+commit b5438c1f5320d0fdeceb3634e8d7ff52a35af6f4
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Thu Dec 18 22:16:53 2014 -0430
 
