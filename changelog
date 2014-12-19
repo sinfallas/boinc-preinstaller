@@ -1,0 +1,17 @@
+commit b5438c1f5320d0fdeceb3634e8d7ff52a35af6f4 (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Thu Dec 18 22:16:53 2014 -0430
+
+    * bugfix
+
+commit e22e887ce9fae50abdb42fef4ea6362789111272
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Thu Dec 18 22:15:24 2014 -0430
+
+    * primer commit
+
+commit 68d60e4b8d88b16b1f2c651dfa0f0e1a012ba034
+Author: Jose Perez <sinfallas@users.noreply.github.com>
+Date:   Thu Dec 18 22:13:31 2014 -0430
+
+    Initial commit
