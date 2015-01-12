@@ -6,7 +6,8 @@ fi
 trap "rm -f /run/boinc-preinstaller.pid; exit" INT TERM EXIT
 echo $BASHPID > /run/boinc-preinstaller.pid
 tipo=$(arch)
-quien=$(who | cut -d' ' -f1 | sort | uniq)	
+quien=$(who | cut -d' ' -f1 | sort | uniq)
+apt update
 apt -y install libxss1 libwxgtk2.8-0 freeglut3 xscreensaver libjpeg62
 if [[ $tipo = x86_64 ]];then
 	apt -y install libstdc++5 libstdc++6 ia32-libs-i386
