@@ -1,4 +1,28 @@
-commit a1e63580c216ab38c6b85b4f030bfb22fb786827 (HEAD, origin/master, origin/HEAD, master)
+commit 327344080397d6a04de5094b35a22b195dd55afe (HEAD, origin/master, origin/HEAD, master)
+Author: Jose Perez <sinfallas@users.noreply.github.com>
+Date:   Tue Jan 13 09:35:00 2015 -0430
+
+    * bugfix
+
+commit c93ed34229caff0152a11a4cd7aad0216569c045
+Author: Jose Perez <sinfallas@users.noreply.github.com>
+Date:   Tue Jan 13 09:31:51 2015 -0430
+
+    * se crea el directorio BOINC antes de crear el archivo cc_config.xml
+
+commit a2ece796c506e80766eae72e220a96f5ce32b393
+Author: Jose Perez <sinfallas@users.noreply.github.com>
+Date:   Mon Jan 12 15:41:21 2015 -0430
+
+    Update boinc-preinstaller.sh
+
+commit 30f5b80bea7d64ab816b6f815ccba94a78e21801
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Thu Jan 8 00:48:26 2015 -0430
+
+    * changelog
+
+commit a1e63580c216ab38c6b85b4f030bfb22fb786827
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Thu Jan 8 00:47:27 2015 -0430
 
