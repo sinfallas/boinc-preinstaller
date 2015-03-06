@@ -1,6 +1,6 @@
 #!/bin/bash
-if [ $USER != root ]; then
-echo "Error: debes ser root"
+if [[ $USER != root ]]; then
+echo -e "\e[00;31mERROR: must be root\e[00m"
 exit 1
 fi
 trap "rm -f /run/boinc-preinstaller.pid; exit" INT TERM EXIT
@@ -24,7 +24,8 @@ echo "    <http_1_0>1</http_1_0>" >> /home/$quien/BOINC/cc_config.xml
 echo "  </options>" >> /home/$quien/BOINC/cc_config.xml
 echo "</cc_config>" >> /home/$quien/BOINC/cc_config.xml
 chown -R $quien /home/$quien/BOINC
-echo "Descargue el instalador de BOINC, copielo a /home/"$quien" y ejecutelo desde alli" 
+echo "Download BOINC installer and copy to /home/"$quien" and run." 
 rm -f /run/boinc-preinstaller.pid
 trap - INT TERM EXIT
+echo -e "\e[00;1;92mFinished...\e[00m"
 exit 0
