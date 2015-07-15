@@ -18,11 +18,16 @@ ln -sv /home/$quien/BOINC/boincscr /usr/lib/xscreensaver/boincscr
 ln -sv /usr/lib/i386-linux-gnu/libssl.so.1.0.0 /usr/lib/i386-linux-gnu/libssl.so.8
 ln -sv /usr/lib/i386-linux-gnu/libcrypto.so.1.0.0 /usr/lib/i386-linux-gnu/libcrypto.so.8
 # echo '- GL: /home/$quien/BOINC/boincscr -root -boinc_dir /home/$quien/BOINC/ \n\' >> /home/$quien/.xscreensaver
-echo "<cc_config>" > /home/$quien/BOINC/cc_config.xml
-echo "  <options>" >> /home/$quien/BOINC/cc_config.xml
-echo "    <http_1_0>1</http_1_0>" >> /home/$quien/BOINC/cc_config.xml
-echo "  </options>" >> /home/$quien/BOINC/cc_config.xml
-echo "</cc_config>" >> /home/$quien/BOINC/cc_config.xml
+CCONFIG=$(cat <<EOF
+<cc_config>
+    <options>
+    	<http_1_0>1</http_1_0>
+    </options>	
+</cc_config>
+EOF
+)
+
+echo "${CCONFIG}" > /home/$quien/BOINC/cc_config.xml
 chown -R $quien /home/$quien/BOINC
 echo "Download BOINC installer and copy to /home/"$quien" and run." 
 rm -f /run/boinc-preinstaller.pid
