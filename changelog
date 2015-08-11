@@ -1,4 +1,45 @@
-commit bcd86d07b0223ca50b2e1b06abcc099ca3f15047 (HEAD, origin/master, origin/HEAD, master)
+commit c608c09b33bd486293b300310af7e875a1422a04 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Aug 10 19:49:38 2015 -0430
+
+    * doi
+
+commit dbafbaf6ab225bc85f15b9f8a15ad52b68302b93
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Aug 1 21:18:50 2015 -0430
+
+    * badge
+
+commit e508f8d8a0e4cd38c5dc8fe6bf2f4d00da9deca7
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Aug 1 21:17:54 2015 -0430
+
+    * coveralls
+
+commit f76d1880ec5a48ebd790f7267592181fafa0564a (tag: v0.2.1)
+Merge: 7680a9d 6f20e4e
+Author: Jose Perez <sinfallas@users.noreply.github.com>
+Date:   Wed Jul 15 12:25:36 2015 -0430
+
+    Merge pull request #1 from abr4xas/master
+    
+    Update boinc-preinstaller.sh
+
+commit 6f20e4e9ffd47596d4b3efd74f3fbaf54e27737e
+Author: ángel <abr4xas@users.noreply.github.com>
+Date:   Tue Jul 14 16:10:15 2015 -0430
+
+    Update boinc-preinstaller.sh
+    
+    Mejora en como crear cc_config.xml :smile:
+
+commit 7680a9dcceb35bdc102b01bbe5e5e425813fb00d (tag: v0.2)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Fri Mar 6 16:42:28 2015 -0430
+
+    * changelog
+
+commit bcd86d07b0223ca50b2e1b06abcc099ca3f15047
 Author: jose perez <sinfallas@gmail.com>
 Date:   Fri Mar 6 16:41:51 2015 -0430
 
