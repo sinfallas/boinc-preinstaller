@@ -14,11 +14,11 @@ script to install dependencies for BOINC
 ## How to use
 
 ```bash
-$ curl -O https://raw.githubusercontent.com/sinfallas/boinc-preinstaller/master/boinc-preinstaller.sh
-$ chmod +x boinc-preinstaller.sh
+$ curl -O https://raw.githubusercontent.com/sinfallas/boinc-preinstaller/master/boinc-preinstaller
+$ chmod +x boinc-preinstaller
 ```
 Then execute as root or sudo:
 
 ```bash
- ./boinc-preinstaller.sh
+ ./boinc-preinstaller
 ```
