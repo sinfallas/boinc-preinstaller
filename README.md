@@ -7,8 +7,6 @@ boinc-preinstaller
 
 ![Status](https://travis-ci.org/sinfallas/boinc-preinstaller.svg) 
 
-[![Coverage Status](https://coveralls.io/repos/sinfallas/boinc-preinstaller/badge.svg?branch=master&service=github)](https://coveralls.io/github/sinfallas/boinc-preinstaller?branch=master)
-
 script to install dependencies for BOINC
 
 ## How to use
