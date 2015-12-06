@@ -5,8 +5,8 @@ if [[ $USER != root ]]; then
 echo -e "\e[00;31mERROR: must be root\e[00m"
 exit 1
 fi
-trap "rm -f /run/boinc-preinstaller.pid; exit" INT TERM EXIT
-echo $BASHPID > /run/boinc-preinstaller.pid
+trap "rm -f /run/$(basename $0).pid; exit" INT TERM EXIT
+echo $BASHPID > /run/$(basename $0).pid
 tipo=$(arch)
 quien=$(who | cut -d' ' -f1 | sort | uniq)
 apt update
@@ -32,7 +32,7 @@ EOF
 echo "${CCONFIG}" > /home/$quien/BOINC/cc_config.xml
 chown -R $quien /home/$quien/BOINC
 echo "Download BOINC installer and copy to /home/"$quien" and run." 
-rm -f /run/boinc-preinstaller.pid
+rm -f /run/$(basename $0).pid
 trap - INT TERM EXIT
 echo -e "\e[00;1;92mFinished...\e[00m"
 exit 0
