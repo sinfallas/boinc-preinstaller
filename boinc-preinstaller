@@ -1,9 +1,12 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Made by Sinfallas <sinfallas@yahoo.com>
 # Licence: GPL-2
+set -eu
+set -o pipefail
+LC_ALL=C
 if [[ $USER != root ]]; then
-echo -e "\e[00;31mERROR: must be root\e[00m"
-exit 1
+	echo -e "\e[00;31mERROR: must be root\e[00m"
+	exit 1
 fi
 trap "rm -f /run/$(basename $0).pid; exit" INT TERM EXIT
 echo $BASHPID > /run/$(basename $0).pid
